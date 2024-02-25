@@ -19,9 +19,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 简 悦                            # the main title
+title: cfbreathing                            # the main title
 
-tagline: 简悦的博客                      # it will display as the sub-title
+tagline: cfbreathing 的博客                      # it will display as the sub-title
 
 description: >-                         # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -30,16 +30,13 @@ description: >-                         # used by seo meta and the atom feed
 url: 'https://jianyue.tech/'
 
 github:
-  username: cs-qyzhang                  # change to your github username
-
-twitter:
-  username: cs_qyzhang                  # change to your twitter username
+  username: cfbreathing                  # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 简悦
-  email: cs.qyzhang@qq.com              # change to your email address
+  name: cfbreathing
+  email: breathing@zju.edu.cn              # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://jianyue.tech
@@ -54,12 +51,12 @@ google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: 'G-69KYY40RMN'  # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+# google_analytics:
+#   id: 'G-69KYY40RMN'  # fill in your Google Analytics ID
+#   # Google Analytics pageviews report settings
+#   pv:
+#     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+#     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -82,7 +79,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://qyzhang-obsidian.oss-cn-hangzhou.aliyuncs.com/avatar.jpg
+avatar: '../assets/img/favicons/logo.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -98,10 +95,10 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: cs-qyzhang/cs-qyzhang.github.io             # <gh-username>/<repo>
-    repo_id: R_kgDOIuwz6w
+    repo: cfbreathing/cfbreathing.github.io             # <gh-username>/<repo>
+    repo_id: R_kgDOLXraWw
     category: Announcements
-    category_id: DIC_kwDOIuwz684CTkFA
+    category_id: DIC_kwDOLXraW84CdgDJ
     mapping: pathname      # optional, default to 'pathname'
     input_position: bottom # optional, default to 'bottom'
     lang: zh-CN            # optional, default to the value of `site.lang`
