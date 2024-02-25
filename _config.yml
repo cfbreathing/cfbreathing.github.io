@@ -27,7 +27,7 @@ description: >-                         # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://jianyue.tech/'
+url: 'https://cfbreathing.github.io/about/'
 
 github:
   username: cfbreathing                  # change to your github username
@@ -39,8 +39,8 @@ social:
   email: breathing@zju.edu.cn              # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://jianyue.tech
-    - https://github.com/cs-qyzhang     # change to your github homepage
+    - https://cfbreathing.github.io/about/
+    - https://github.com/cfbreathing     # change to your github homepage
     # - https://twitter.com/username      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
